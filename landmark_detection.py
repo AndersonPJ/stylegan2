@@ -1,6 +1,7 @@
 import numpy as np
 import PIL
 import dlib
+import scipy
 
 predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 
